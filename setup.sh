@@ -10,7 +10,7 @@ for script in ~/.dotfiles/scripts/*; do
   bash "$script"
 done
 
-bash ~/.dotfiles/scripts/copy-config.sh
+bash ~/.dotfiles/configs/copy-config.sh
 
 cd $CURRENT
 
